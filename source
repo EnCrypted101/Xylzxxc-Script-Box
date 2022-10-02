@@ -1,0 +1,112 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local InfiniteYield = Instance.new("TextButton")
+local CMDX = Instance.new("TextButton")
+local XylzxxcsScriptBox = Instance.new("TextLabel")
+local RemoteSpy = Instance.new("TextButton")
+local VGHub = Instance.new("TextButton")
+local AntiAFK = Instance.new("TextButton")
+local ComingSoon = Instance.new("TextButton")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.Position = UDim2.new(0.419837356, 0, 0.423909307, 0)
+Main.Size = UDim2.new(0, 217, 0, 100)
+Main.Active = true
+Main.Draggable = true
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = Main
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+InfiniteYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.Position = UDim2.new(0.735913277, 0, 0.183260188, 0)
+InfiniteYield.Size = UDim2.new(0, 50, 0, 32)
+InfiniteYield.Font = Enum.Font.SourceSans
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.TextSize = 12.000
+InfiniteYield.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+CMDX.Name = "CMD-X"
+CMDX.Parent = Main
+CMDX.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+CMDX.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CMDX.Position = UDim2.new(0.735913277, 0, 0.609909058, 0)
+CMDX.Size = UDim2.new(0, 50, 0, 32)
+CMDX.Font = Enum.Font.SourceSans
+CMDX.Text = "CMD-X"
+CMDX.TextColor3 = Color3.fromRGB(255, 255, 255)
+CMDX.TextSize = 14.000
+CMDX.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+end)
+
+XylzxxcsScriptBox.Name = "Xylzxxc's Script Box"
+XylzxxcsScriptBox.Parent = Main
+XylzxxcsScriptBox.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+XylzxxcsScriptBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+XylzxxcsScriptBox.Position = UDim2.new(0, 0, -0.00606658915, 0)
+XylzxxcsScriptBox.Size = UDim2.new(0, 217, 0, 13)
+XylzxxcsScriptBox.Font = Enum.Font.SourceSans
+XylzxxcsScriptBox.Text = "Xylzxxc's Script Box"
+XylzxxcsScriptBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+XylzxxcsScriptBox.TextSize = 14.000
+
+RemoteSpy.Name = "RemoteSpy"
+RemoteSpy.Parent = Main
+RemoteSpy.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+RemoteSpy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RemoteSpy.Position = UDim2.new(0.381074578, 0, 0.189909071, 0)
+RemoteSpy.Size = UDim2.new(0, 50, 0, 32)
+RemoteSpy.Modal = true
+RemoteSpy.Font = Enum.Font.SourceSans
+RemoteSpy.Text = "Remote Spy"
+RemoteSpy.TextColor3 = Color3.fromRGB(255, 255, 255)
+RemoteSpy.TextSize = 12.000
+RemoteSpy.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/specowos/scriptsforvideos1/main/r2s.lua'))()
+end)
+
+VGHub.Name = "V.G Hub"
+VGHub.Parent = Main
+VGHub.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+VGHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+VGHub.Position = UDim2.new(0.030844152, 0, 0.189909071, 0)
+VGHub.Size = UDim2.new(0, 50, 0, 32)
+VGHub.Font = Enum.Font.SourceSans
+VGHub.Text = "V.G Hub"
+VGHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+VGHub.TextSize = 14.000
+VGHub.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+AntiAFK.Name = "Anti AFK"
+AntiAFK.Parent = Main
+AntiAFK.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+AntiAFK.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AntiAFK.Position = UDim2.new(0.381074578, 0, 0.609909058, 0)
+AntiAFK.Size = UDim2.new(0, 50, 0, 32)
+AntiAFK.Font = Enum.Font.SourceSans
+AntiAFK.Text = "Anti AFK"
+AntiAFK.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiAFK.TextSize = 14.000
+AntiAFK.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/sDXcYFhR", true))()
+end)
+
+ComingSoon.Name = "Coming Soon..."
+ComingSoon.Parent = Main
+ComingSoon.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+ComingSoon.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ComingSoon.Position = UDim2.new(0.030844152, 0, 0.609909058, 0)
+ComingSoon.Size = UDim2.new(0, 50, 0, 32)
+ComingSoon.Font = Enum.Font.SourceSans
+ComingSoon.Text = "Coming Soon..."
+ComingSoon.TextColor3 = Color3.fromRGB(255, 255, 255)
